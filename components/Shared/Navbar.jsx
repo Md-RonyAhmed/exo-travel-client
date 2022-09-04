@@ -18,7 +18,7 @@ const Navbar = ({ children }) => {
       <li>
         <Link href="/blogs">BLOGS</Link>
       </li>
-      <li className="bg-gray-200 rounded-md mr-6">
+      <li className="bg-primary rounded-md mr-6">
         <Link href="/">ENQUIRE</Link>
       </li>
     </>
@@ -28,10 +28,10 @@ const Navbar = ({ children }) => {
     <>
       <div className="drawer drawer-end">
         <input id="sidebar" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content flex flex-col">
-          <div className="w-full flex navbar bg-transparent justify-between fixed top-0 z-50">
+        <div className="drawer-content">
+          <div className="w-full flex navbar bg-transparent justify-between items-center fixed top-0 z-50 py-4">
             <div>
-              <div className="flex ml-6 text-5xl text-primary font-bold">
+              <div className="flex text-6xl text-primary font-bold tracking-wider pl-6">
                 EXO
               </div>
             </div>
@@ -42,7 +42,7 @@ const Navbar = ({ children }) => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  className="inline-block w-6 h-6 stroke-current"
+                  className="inline-block w-6 h-6 stroke-current text-white"
                 >
                   <path
                     strokeLinecap="round"
@@ -55,7 +55,7 @@ const Navbar = ({ children }) => {
             </div>
 
             <div className="flex-none hidden lg:block">
-              <ul className="menu menu-horizontal p-0 m-0 font-semibold tracking-widest">{navbar}</ul>
+              <ul className="menu menu-horizontal p-0 m-0 font-semibold tracking-widest text-white">{navbar}</ul>
             </div>
           </div>
           {children}
