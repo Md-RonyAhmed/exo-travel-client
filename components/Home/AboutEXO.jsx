@@ -6,7 +6,7 @@ const AboutEXO = () => {
     <div>
       <div className="bg-white lg:py-20 p-8 text-center">
         <div>
-          <Image src={icon} width={70} height={70} alt="img"></Image>
+          <Image src={icon} width={100} height={60} alt="img"></Image>
         </div>
         <h2 className="text-3xl tracking-wide text-[#444444] mb-4">WHY EXO</h2>
         <hr className="lg:w-1/6 w-1/2 mx-auto border-[1.3px] border-gray-300 bg-gray-300" />
