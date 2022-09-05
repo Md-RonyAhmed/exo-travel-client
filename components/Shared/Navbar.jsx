@@ -1,15 +1,251 @@
+import Image from "next/image";
 import Link from "next/link";
-
-
+import img1 from "./../../assets/destinations/vietnam.webp"
 const Navbar = ({ children }) => {
   const navBar = (
     <>
-      <li className="hover:text-primary">
-        <Link href="/">DESTINATIONS</Link>
-      </li>
-      <li className="hover:text-primary">
-        <Link href="/">TOUR STYLES</Link>
-      </li>
+      <div className="dropdown dropdown-hover">
+        <li tabIndex="0" className=" hover:text-primary">
+          <Link href="/">DESTINATIONS</Link>
+        </li>
+        <ul
+          tabIndex="0"
+          className="dropdown-content z-40 p-3 mt-1 bg-white w-[750px] h-[400px] grid lg:grid-cols-5 gap-3 grid-cols-1"
+        >
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img1.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p>All Tours</p>
+              <p>Preferred Hotels</p>
+              <p>Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img1.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p>All Tours</p>
+              <p>Preferred Hotels</p>
+              <p>Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img1.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p>All Tours</p>
+              <p>Preferred Hotels</p>
+              <p>Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img1.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p>All Tours</p>
+              <p>Preferred Hotels</p>
+              <p>Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img1.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p>All Tours</p>
+              <p>Preferred Hotels</p>
+              <p>Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img1.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p>All Tours</p>
+              <p>Preferred Hotels</p>
+              <p>Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img1.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p>All Tours</p>
+              <p>Preferred Hotels</p>
+              <p>Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img1.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p>All Tours</p>
+              <p>Preferred Hotels</p>
+              <p>Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img1.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p>All Tours</p>
+              <p>Preferred Hotels</p>
+              <p>Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img1.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p>All Tours</p>
+              <p>Preferred Hotels</p>
+              <p>Experiences</p>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div className="dropdown dropdown-hover lg:dropdown-end">
+        <li tabIndex="0" className=" hover:text-primary">
+          <Link href="/">TOUR STYLES</Link>
+        </li>
+        <ul
+          tabIndex="0"
+          className="dropdown-content z-40 p-3 mt-1 bg-white w-[750px] h-[400px] grid lg:grid-cols-4 grid-cols-1"
+        >
+          <p className="pt-3 text-sm">
+            <Image src={img1} alt="img" width={150} height={90} />
+            <p>All Tours</p>
+            <p>Preferred Hotels</p>
+            <p>Experiences</p>
+          </p>
+          <p className="pt-3 text-sm">
+            <Image src={img1} alt="img" width={150} height={90} />
+            <p>All Tours</p>
+            <p>Preferred Hotels</p>
+            <p>Experiences</p>
+          </p>
+          <p className="pt-3 text-sm">
+            <Image src={img1} alt="img" width={150} height={90} />
+            <p>All Tours</p>
+            <p>Preferred Hotels</p>
+            <p>Experiences</p>
+          </p>
+          <p className="pt-3 text-sm">
+            <Image src={img1} alt="img" width={150} height={90} />
+            <p>All Tours</p>
+            <p>Preferred Hotels</p>
+            <p>Experiences</p>
+          </p>
+          <p className="pt-3 text-sm">
+            <Image src={img1} alt="img" width={150} height={90} />
+            <p>All Tours</p>
+            <p>Preferred Hotels</p>
+            <p>Experiences</p>
+          </p>
+          <p className="pt-3 text-sm">
+            <Image src={img1} alt="img" width={150} height={90} />
+            <p>All Tours</p>
+            <p>Preferred Hotels</p>
+            <p>Experiences</p>
+          </p>
+          <p className="pt-3 text-sm">
+            <Image src={img1} alt="img" width={150} height={90} />
+            <p>All Tours</p>
+            <p>Preferred Hotels</p>
+            <p>Experiences</p>
+          </p>
+        </ul>
+      </div>
       <li className="hover:text-primary">
         <Link href="/">ABOUT</Link>
       </li>
@@ -30,15 +266,15 @@ const Navbar = ({ children }) => {
         <input id="sidebar" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
           <div
-            className={`w-full flex navbar bg-white opacity-50 contrast-125 brightness-100 justify-between items-center fixed top-0 z-50`}
+            className={`w-full flex navbar bg-white justify-between items-center fixed top-0 z-50`}
           >
             <div>
-              <div className="flex text-6xl text-primary font-bold tracking-wider contrast-150 pl-6">
+              <div className="flex text-6xl text-primary font-bold tracking-wider pl-6">
                 EXO
               </div>
             </div>
 
-            <div className="lg:hidden flex-1 justify-end">
+            <div className="lg:hidden flex-1 justify-end mr-4">
               <label htmlFor="sidebar" className="btn btn-square btn-ghost">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

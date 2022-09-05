@@ -1,13 +1,13 @@
-import Layout from "../components/Layout/Layout";
+
+import Footer from "../components/Shared/Footer";
 import Navbar from "../components/Shared/Navbar";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <Navbar>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <Component {...pageProps} />
+      <Footer/>
     </Navbar>
   );
 }
