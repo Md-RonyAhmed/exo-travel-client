@@ -18,7 +18,7 @@ import cer11 from "./../../assets/images/certificates/virtuoso.webp"
 const Footer = () => {
   return (
     <>
-      <div className="text-center mt-12">
+      <div className="text-center mt-12 z-20">
         <div>
           <Image src={icon} width={70} height={70} alt="img"></Image>
         </div>
@@ -156,7 +156,7 @@ const Footer = () => {
           <Image src={cer11} width={100} height={50} alt="img"></Image>
         </p>
       </div>
-      <footer className="text-left bg-[#313131] text-white z-50 relative">
+      <footer className="text-left bg-[#313131] text-white z-30 relative">
         <div className="mx-6 py-10 text-left">
           <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="">
