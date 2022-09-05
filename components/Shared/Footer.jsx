@@ -11,21 +11,27 @@ const Footer = () => {
           <Image src={icon} width={70} height={70} alt="img"></Image>
         </div>
         <div className="bg-[#dbdbdb] lg:p-20 p-8 -mt-10 ">
-          <h2 className="text-3xl tracking-wide mb-4">LET’S GET SOCIAL</h2>
+          <h2 className="text-3xl tracking-wide text-[#444444] mb-4">
+            LET’S GET SOCIAL
+          </h2>
           <hr className="lg:w-1/6 w-1/2 mx-auto border-[1.3px] border-white bg-white" />
           <p className="lg:w-2/3 w-full mx-auto mb-10 mt-5 lg:text-2xl text-lg text-[#8c8e8f]">
             For inspiring experiences, real-time updates, the latest trends or
             casual conversation, explore our social networks for all things
             travel.
           </p>
-          <div className="flex justify-center">
-            <a href="#!" className="mr-6 text-blue-600">
+          <div className="flex justify-center items-center">
+            <a
+              href="#!"
+              title="Facebook"
+              className="mr-6 text-white hover:text-primary bg-primary hover:bg-white hover:border-2 border-primary w-10 h-10 rounded-full flex justify-center items-center"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="facebook-f"
-                className="w-3.5"
+                className="w-2.5"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 320 512"
@@ -36,13 +42,17 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#!" className="mr-6 text-sky-400">
+            <a
+              href="#!"
+              title="Twitter"
+              className="mr-6 text-white hover:text-primary bg-primary hover:bg-white hover:border-2 border-primary w-10 h-10 rounded-full flex justify-center items-center"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="twitter"
-                className="w-6"
+                className="w-4"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -54,13 +64,17 @@ const Footer = () => {
               </svg>
             </a>
 
-            <a href="#!" className="mr-6 text-pink-600">
+            <a
+              href="#!"
+              title="Instagram"
+              className="mr-6 text-white hover:text-primary bg-primary hover:bg-white hover:border-2 border-primary w-10 h-10 rounded-full flex justify-center items-center"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="instagram"
-                className="w-5"
+                className="w-4"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -71,13 +85,17 @@ const Footer = () => {
                 ></path>
               </svg>
             </a>
-            <a href="#!" className="mr-6 text-blue-600">
+            <a
+              title="Linkedin"
+              href="#!"
+              className=" text-white hover:text-primary bg-primary hover:bg-white hover:border-2 border-primary w-10 h-10 rounded-full flex justify-center items-center"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="linkedin-in"
-                className="w-5"
+                className="w-3.5"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
