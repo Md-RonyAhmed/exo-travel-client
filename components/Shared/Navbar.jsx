@@ -10,7 +10,7 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 p-3 mt-1 bg-white w-[750px] h-[400px] grid lg:grid-cols-5 gap-3 grid-cols-1"
+          className="dropdown-content z-40 p-3 mt-1 bg-white lg:w-[750px] w-full lg:h-[400px] h-full grid lg:grid-cols-5 lg:gap-3 gap-0 grid-cols-1"
         >
           <div>
             <div
@@ -24,7 +24,7 @@ const Navbar = ({ children }) => {
                 </h2>
               </div>
             </div>
-            <div className="pt-3 text-sm text-center">
+            <div className="pt-3 text-sm text-center bg-white">
               <p>All Tours</p>
               <p>Preferred Hotels</p>
               <p>Experiences</p>
