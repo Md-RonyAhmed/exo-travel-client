@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import AboutEXO from '../components/Home/AboutEXO'
 import Banner from '../components/Home/Banner'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
+      <AboutEXO/>
     </div>
   )
 }
