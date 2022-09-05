@@ -14,7 +14,7 @@ const Banner = () => {
           ></video>
         </div>
         <div className="video-content">
-          <h1 className="font-bold text-7xl">EXPERIENCE OUR ASIA</h1>
+          <h1 className="font-bold text-5xl lg:text-7xl">EXPERIENCE OUR ASIA</h1>
         </div>
       </section>
     </>
