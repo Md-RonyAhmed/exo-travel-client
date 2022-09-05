@@ -1,4 +1,4 @@
-
+import { BsSearch, BsChatSquareText, BsEnvelope } from "react-icons/bs";
 const Banner = () => {
   return (
     <>
@@ -14,7 +14,47 @@ const Banner = () => {
           ></video>
         </div>
         <div className="video-content">
-          <h1 className="font-bold text-5xl lg:text-7xl">EXPERIENCE OUR ASIA</h1>
+          <h1 className="font-bold text-5xl lg:text-7xl mb-16">
+            EXPERIENCE OUR ASIA
+          </h1>
+          <div className="grid grid-cols-3 gap-2 w-11/12 mx-auto">
+            <div>
+              <div className="form-control text-white">
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="Search EXO.."
+                    className="input input-bordered w-full text-gray-700 text-base bg-white rounded-none"
+                  />
+                  <button className="btn btn-primary absolute top-0 right-0 rounded-none text-base bg-green-400 hover:bg-primary">
+                    <p className="text-xl text-white">
+                      <BsSearch />
+                    </p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="w-full bg-[#a4a4a4] h-full flex justify-center items-center hover:bg-primary cursor-pointer">
+                <p className="text-xl pt-1">
+                  <BsChatSquareText />
+                </p>
+                <p className="font-semibold text-lg uppercase ml-2">
+                  Get in touch
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="w-full bg-[#a4a4a4] h-full flex justify-center items-center hover:bg-primary cursor-pointer">
+                <p className="text-xl -rotate-45">
+                  <BsEnvelope />
+                </p>
+                <p className="ml-2 font-semibold text-lg uppercase">
+                  newsletter
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

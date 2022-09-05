@@ -202,48 +202,48 @@ const Navbar = ({ children }) => {
           tabIndex="0"
           className="dropdown-content z-40 p-3 mt-1 bg-white w-[750px] h-[400px] grid lg:grid-cols-4 grid-cols-1"
         >
-          <p className="pt-3 text-sm">
+          <div className="pt-3 text-sm">
             <Image src={img1} alt="img" width={150} height={90} />
             <p>All Tours</p>
             <p>Preferred Hotels</p>
             <p>Experiences</p>
-          </p>
-          <p className="pt-3 text-sm">
+          </div>
+          <div className="pt-3 text-sm">
             <Image src={img1} alt="img" width={150} height={90} />
             <p>All Tours</p>
             <p>Preferred Hotels</p>
             <p>Experiences</p>
-          </p>
-          <p className="pt-3 text-sm">
+          </div>
+          <div className="pt-3 text-sm">
             <Image src={img1} alt="img" width={150} height={90} />
             <p>All Tours</p>
             <p>Preferred Hotels</p>
             <p>Experiences</p>
-          </p>
-          <p className="pt-3 text-sm">
+          </div>
+          <div className="pt-3 text-sm">
             <Image src={img1} alt="img" width={150} height={90} />
             <p>All Tours</p>
             <p>Preferred Hotels</p>
             <p>Experiences</p>
-          </p>
-          <p className="pt-3 text-sm">
+          </div>
+          <div className="pt-3 text-sm">
             <Image src={img1} alt="img" width={150} height={90} />
             <p>All Tours</p>
             <p>Preferred Hotels</p>
             <p>Experiences</p>
-          </p>
-          <p className="pt-3 text-sm">
+          </div>
+          <div className="pt-3 text-sm">
             <Image src={img1} alt="img" width={150} height={90} />
             <p>All Tours</p>
             <p>Preferred Hotels</p>
             <p>Experiences</p>
-          </p>
-          <p className="pt-3 text-sm">
+          </div>
+          <div className="pt-3 text-sm">
             <Image src={img1} alt="img" width={150} height={90} />
             <p>All Tours</p>
             <p>Preferred Hotels</p>
             <p>Experiences</p>
-          </p>
+          </div>
         </ul>
       </div>
       <li className="hover:text-primary">
