@@ -3,6 +3,18 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import icon from "./../../assets/images/icon-all-social.svg"
+import cer1 from "./../../assets/images/certificates/logo-world-travel-tourism-council.webp"
+import cer2 from "./../../assets/images/certificates/childsafe2018.webp"
+import cer3 from "./../../assets/images/certificates/iata.webp"
+import cer4 from "./../../assets/images/certificates/pata.webp"
+import cer5 from "./../../assets/images/certificates/pure.webp"
+import cer6 from "./../../assets/images/certificates/Select-ICP.webp"
+import cer7 from "./../../assets/images/certificates/tap.webp"
+import cer8 from "./../../assets/images/certificates//travelleader-network.webp"
+import cer9 from "./../../assets/images/certificates/travellife.webp"
+import cer10 from "./../../assets/images/certificates/ustoa.webp"
+import cer11 from "./../../assets/images/certificates/virtuoso.webp"
+
 const Footer = () => {
   return (
     <>
@@ -108,6 +120,41 @@ const Footer = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="py-8 px-4 text-center grid lg:grid-cols-11 grid-cols-2">
+        <p>
+          <Image src={cer1} width={100} height={50} alt="img"></Image>
+        </p>
+        <p>
+          <Image src={cer2} width={100} height={50} alt="img"></Image>
+        </p>
+        <p>
+          <Image src={cer3} width={100} height={50} alt="img"></Image>
+        </p>
+        <p>
+          <Image src={cer4} width={100} height={50} alt="img"></Image>
+        </p>
+        <p>
+          <Image src={cer5} width={60} height={60} alt="img"></Image>
+        </p>
+        <p>
+          <Image src={cer6} width={120} height={50} alt="img"></Image>
+        </p>
+        <p>
+          <Image src={cer7} width={60} height={60} alt="img"></Image>
+        </p>
+        <p>
+          <Image src={cer8} width={100} height={50} alt="img"></Image>
+        </p>
+        <p>
+          <Image src={cer9} width={100} height={50} alt="img"></Image>
+        </p>
+        <p>
+          <Image src={cer10} width={100} height={50} alt="img"></Image>
+        </p>
+        <p>
+          <Image src={cer11} width={100} height={50} alt="img"></Image>
+        </p>
       </div>
       <footer className="text-left bg-[#313131] text-white z-50 relative">
         <div className="mx-6 py-10 text-left">
