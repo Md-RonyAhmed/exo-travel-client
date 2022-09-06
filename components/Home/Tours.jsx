@@ -32,6 +32,12 @@ const Tours = () => {
                 <div className="">
                   <Image src={tour1} alt="myanmar" layout="fill" />
                 </div>
+                <div className="absolute top-0 left-12 mt-3 text-white">
+                  <h1 className="text-center font-bold text-2xl">
+                    Trek the Headhunters Trail
+                  </h1>
+                  <p className="text-center font-semibold text-lg">Malaysia</p>
+                </div>
               </div>
             </div>
             <div className="h-72 relative bg-slate-300">
