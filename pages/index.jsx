@@ -4,6 +4,7 @@ import AboutEXO from '../components/Home/AboutEXO'
 import Banner from '../components/Home/Banner'
 import OurAsia from '../components/Home/OurAsia'
 import StandFor from '../components/Home/StandFor'
+import Subscribe from '../components/Home/Subscribe'
 
 export default function Home() {
   return (
@@ -16,7 +17,8 @@ export default function Home() {
       <Banner />
       <AboutEXO />
       <OurAsia />
-      <StandFor/>
+      <StandFor />
+      <Subscribe/>
     </div>
   )
 }
