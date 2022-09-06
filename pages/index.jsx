@@ -5,6 +5,7 @@ import Banner from '../components/Home/Banner'
 import OurAsia from '../components/Home/OurAsia'
 import StandFor from '../components/Home/StandFor'
 import Subscribe from '../components/Home/Subscribe'
+import Tours from '../components/Home/Tours'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutEXO />
       <OurAsia />
       <StandFor />
+      <Tours/>
       <Subscribe/>
     </div>
   )
