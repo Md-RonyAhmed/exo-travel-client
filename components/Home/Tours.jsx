@@ -7,7 +7,7 @@ import tour2 from "./../../assets/images/tours/nick-fewings-rpjfrpCFkDo-unsplash
 const Tours = () => {
   return (
     <>
-      <div className="text-center mt-12 z-10">
+      <div className="text-center mt-12 z-10 mb-0">
         <div>
           <Image src={icon} width={70} height={70} alt="img"></Image>
         </div>

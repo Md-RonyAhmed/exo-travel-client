@@ -3,8 +3,8 @@
 
 const Subscribe = () => {
   return (
-    <div className="text-center mt-12 z-10">
-      <div className="bg-[#dbdbdb] lg:py-12 p-8">
+    <div className="text-center mt-0 z-10">
+      <div className="bg-[#dbdbdb] lg:py-12 lg:p-8">
         <h2 className="text-3xl tracking-wide text-[#444444] mb-4">
           SUBSCRIBE TO OUR NEWSLETTER
         </h2>
@@ -13,14 +13,14 @@ const Subscribe = () => {
           The world of EXO Travel is always evolving. Stay in touch and we'll
           keep you up to speed.
         </p>
-        <div className="form-control text-white pt-4 h-24">
-          <div className="relative">
+        <div className="form-control text-white h-24">
+          <div className="lg:relative">
             <input
               type="text"
               placeholder="Enter your email..."
               className="input input-bordered w-1/2 h-16 rounded-sm text-[#5e6163] text-lg rounded-r-none"
             />
-            <button className="btn btn-primary text-xl text-white absolute rounded-sm h-16 top-0 rounded-l-none bg-[#444444] hover:bg-primary">
+            <button className="btn btn-primary text-xl text-white lg:absolute rounded-sm h-16 top-0 rounded-l-none bg-[#444444] hover:bg-primary">
               Subscribe
             </button>
           </div>
