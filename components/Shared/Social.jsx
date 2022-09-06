@@ -15,7 +15,7 @@ const Social = () => {
                LET’S GET SOCIAL
              </h2>
              <hr className="lg:w-1/6 w-1/2 mx-auto border-[1.3px] border-white bg-white" />
-             <p className="lg:w-2/3 w-full mx-auto mb-10 mt-5 lg:text-2xl text-lg text-[#8c8e8f]">
+             <p className="lg:w-2/3 w-full mx-auto mb-10 mt-5 lg:text-2xl text-lg text-[#5e6163]">
                For inspiring experiences, real-time updates, the latest trends
                or casual conversation, explore our social networks for all
                things travel.

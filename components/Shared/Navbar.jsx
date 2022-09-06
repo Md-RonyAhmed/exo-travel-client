@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import img1 from "./../../assets/destinations/vietnam.webp"
+import img1 from "./../../assets/images/destinations/vietnam.webp"
 const Navbar = ({ children }) => {
   const navBar = (
     <>
@@ -255,7 +255,7 @@ const Navbar = ({ children }) => {
       <li className="hover:text-primary">
         <Link href="/blogs">BLOGS</Link>
       </li>
-      <li className="bg-primary hover:text-orange-500 rounded-md mr-6">
+      <li className="bg-primary hover:text-white rounded-md mr-6">
         <Link href="/">ENQUIRE</Link>
       </li>
     </>
