@@ -19,7 +19,7 @@ const AboutEXO = () => {
           encyclopedic knowledge of the region with a progressive vision to make
           us one of Asia's most trusted and exciting DMCs.
         </p>
-        <button className="btn btn-primary btn-outline rounded px-10 py-1 text-2xl font-thin capitalize">
+        <button className="btn btn-primary rounded px-10 hover:text-white text-primary bg-white pb-1 text-2xl font-thin capitalize">
           Discover More
         </button>
       </div>
