@@ -24,7 +24,7 @@ const Tours = () => {
           </p>
         </div>
       </div>
-      <div className="bg-[#dbdbdb] pb-10">
+      <div className="bg-[#dbdbdb] pb-16">
         <div className=" grid grid-rows-1 mx-4">
           <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
             <div className="h-72 relative bg-slate-300">
