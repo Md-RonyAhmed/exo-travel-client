@@ -3,6 +3,7 @@ import Image from 'next/image'
 import AboutEXO from '../components/Home/AboutEXO'
 import Banner from '../components/Home/Banner'
 import OurAsia from '../components/Home/OurAsia'
+import StandFor from '../components/Home/StandFor'
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       </Head>
       <Banner />
       <AboutEXO />
-      <OurAsia/>
+      <OurAsia />
+      <StandFor/>
     </div>
   )
 }
