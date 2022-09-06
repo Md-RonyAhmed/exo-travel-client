@@ -14,13 +14,13 @@ const Subscribe = () => {
           keep you up to speed.
         </p>
         <div className="form-control text-white h-24">
-          <div className="lg:relative">
+          <div className="lg:relative w-11/12">
             <input
               type="text"
               placeholder="Enter your email..."
-              className="input input-bordered w-1/2 h-16 rounded-sm text-[#5e6163] text-lg rounded-r-none"
+              className="input input-bordered w-1/2 mx-auto h-16 rounded-sm text-[#5e6163] text-lg rounded-r-none"
             />
-            <button className="btn btn-primary text-xl text-white lg:absolute rounded-sm h-16 top-0 rounded-l-none bg-[#444444] hover:bg-primary">
+            <button className="btn btn-primary text-xl text-white mx-auto lg:absolute rounded-sm h-16 top-0 rounded-l-none bg-[#444444] hover:bg-primary">
               Subscribe
             </button>
           </div>
