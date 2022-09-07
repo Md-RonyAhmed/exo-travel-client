@@ -25,9 +25,9 @@ const Navbar = ({ children }) => {
               </div>
             </div>
             <div className="pt-3 text-sm text-center bg-white">
-              <p>All Tours</p>
-              <p>Preferred Hotels</p>
-              <p>Experiences</p>
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
           <div>
@@ -43,9 +43,9 @@ const Navbar = ({ children }) => {
               </div>
             </div>
             <div className="pt-3 text-sm text-center">
-              <p>All Tours</p>
-              <p>Preferred Hotels</p>
-              <p>Experiences</p>
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
           <div>
@@ -61,9 +61,9 @@ const Navbar = ({ children }) => {
               </div>
             </div>
             <div className="pt-3 text-sm text-center">
-              <p>All Tours</p>
-              <p>Preferred Hotels</p>
-              <p>Experiences</p>
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
           <div>
@@ -79,9 +79,9 @@ const Navbar = ({ children }) => {
               </div>
             </div>
             <div className="pt-3 text-sm text-center">
-              <p>All Tours</p>
-              <p>Preferred Hotels</p>
-              <p>Experiences</p>
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
           <div>
@@ -97,9 +97,9 @@ const Navbar = ({ children }) => {
               </div>
             </div>
             <div className="pt-3 text-sm text-center">
-              <p>All Tours</p>
-              <p>Preferred Hotels</p>
-              <p>Experiences</p>
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
           <div>
@@ -115,9 +115,9 @@ const Navbar = ({ children }) => {
               </div>
             </div>
             <div className="pt-3 text-sm text-center">
-              <p>All Tours</p>
-              <p>Preferred Hotels</p>
-              <p>Experiences</p>
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
           <div>
@@ -133,9 +133,9 @@ const Navbar = ({ children }) => {
               </div>
             </div>
             <div className="pt-3 text-sm text-center">
-              <p>All Tours</p>
-              <p>Preferred Hotels</p>
-              <p>Experiences</p>
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
           <div>
@@ -151,9 +151,9 @@ const Navbar = ({ children }) => {
               </div>
             </div>
             <div className="pt-3 text-sm text-center">
-              <p>All Tours</p>
-              <p>Preferred Hotels</p>
-              <p>Experiences</p>
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
           <div>
@@ -169,9 +169,9 @@ const Navbar = ({ children }) => {
               </div>
             </div>
             <div className="pt-3 text-sm text-center">
-              <p>All Tours</p>
-              <p>Preferred Hotels</p>
-              <p>Experiences</p>
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
           <div>
@@ -187,62 +187,39 @@ const Navbar = ({ children }) => {
               </div>
             </div>
             <div className="pt-3 text-sm text-center">
-              <p>All Tours</p>
-              <p>Preferred Hotels</p>
-              <p>Experiences</p>
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
         </ul>
       </div>
-      <div className="dropdown dropdown-hover lg:dropdown-end">
+      <div className="dropdown dropdown-hover">
         <li tabIndex="0" className=" hover:text-primary">
           <Link href="/">TOUR STYLES</Link>
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 p-3 mt-1 bg-white w-[750px] h-[400px] grid lg:grid-cols-4 grid-cols-1"
+          className="dropdown-content z-40 p-3 mt-1 bg-white w-[720px] h-[230px] grid lg:grid-cols-3 grid-cols-1"
         >
-          <div className="pt-3 text-sm">
-            <Image src={img1} alt="img" width={150} height={90} />
-            <p>All Tours</p>
-            <p>Preferred Hotels</p>
-            <p>Experiences</p>
+          <div className="pt-3 space-y-3 cursor-pointer">
+            <p className=" hover:text-primary uppercase">classic journeys</p>
+            <p className=" hover:text-primary uppercase">beach</p>
+            <p className=" hover:text-primary uppercase">natural & wildlife</p>
+            <p className=" hover:text-primary uppercase">active travel</p>
+            <p className=" hover:text-primary uppercase">RESPONSIBLE travel</p>
           </div>
-          <div className="pt-3 text-sm">
-            <Image src={img1} alt="img" width={150} height={90} />
-            <p>All Tours</p>
-            <p>Preferred Hotels</p>
-            <p>Experiences</p>
+          <div className="pt-3 space-y-3 cursor-pointer">
+            <p className=" hover:text-primary uppercase">family</p>
+            <p className=" hover:text-primary uppercase">home stay</p>
+            <p className=" hover:text-primary uppercase">honeymoon</p>
+            <p className=" hover:text-primary uppercase">undiscovered asia</p>
           </div>
-          <div className="pt-3 text-sm">
-            <Image src={img1} alt="img" width={150} height={90} />
-            <p>All Tours</p>
-            <p>Preferred Hotels</p>
-            <p>Experiences</p>
-          </div>
-          <div className="pt-3 text-sm">
-            <Image src={img1} alt="img" width={150} height={90} />
-            <p>All Tours</p>
-            <p>Preferred Hotels</p>
-            <p>Experiences</p>
-          </div>
-          <div className="pt-3 text-sm">
-            <Image src={img1} alt="img" width={150} height={90} />
-            <p>All Tours</p>
-            <p>Preferred Hotels</p>
-            <p>Experiences</p>
-          </div>
-          <div className="pt-3 text-sm">
-            <Image src={img1} alt="img" width={150} height={90} />
-            <p>All Tours</p>
-            <p>Preferred Hotels</p>
-            <p>Experiences</p>
-          </div>
-          <div className="pt-3 text-sm">
-            <Image src={img1} alt="img" width={150} height={90} />
-            <p>All Tours</p>
-            <p>Preferred Hotels</p>
-            <p>Experiences</p>
+          <div className="pt-3 space-y-3 cursor-pointer">
+            <p className=" hover:text-primary uppercase">cruising</p>
+            <p className=" hover:text-primary uppercase">golf</p>
+            <p className=" hover:text-primary uppercase">short trips</p>
+            <p className=" hover:text-primary uppercase">culinary</p>
           </div>
         </ul>
       </div>
