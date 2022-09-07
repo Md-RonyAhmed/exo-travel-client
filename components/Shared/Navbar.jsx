@@ -1,12 +1,26 @@
 import Image from "next/image";
 import Link from "next/link";
 import img1 from "./../../assets/images/destinations/vietnam.webp"
+import img2 from "./../../assets/images/others/whyEXO.jpg"
 const Navbar = ({ children }) => {
   const navBar = (
     <>
       <div className="dropdown dropdown-hover">
-        <li tabIndex="0" className=" hover:text-primary">
-          <Link href="/">DESTINATIONS</Link>
+        <li tabIndex="0" className="hover:text-primary">
+          <Link href="/">
+            <a>
+              DESTINATIONS
+              <svg
+                className="fill-current ml-0 pl-0"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
+            </a>
+          </Link>
         </li>
         <ul
           tabIndex="0"
@@ -26,7 +40,29 @@ const Navbar = ({ children }) => {
             </div>
             <div className="pt-3 text-sm text-center bg-white">
               <p className=" hover:text-primary cursor-pointer">All Tours</p>
-              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">
+                Preferred Hotels
+              </p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img2.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">
+                Preferred Hotels
+              </p>
               <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
@@ -44,7 +80,29 @@ const Navbar = ({ children }) => {
             </div>
             <div className="pt-3 text-sm text-center">
               <p className=" hover:text-primary cursor-pointer">All Tours</p>
-              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">
+                Preferred Hotels
+              </p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img2.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">
+                Preferred Hotels
+              </p>
               <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
@@ -62,7 +120,29 @@ const Navbar = ({ children }) => {
             </div>
             <div className="pt-3 text-sm text-center">
               <p className=" hover:text-primary cursor-pointer">All Tours</p>
-              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">
+                Preferred Hotels
+              </p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img2.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">
+                Preferred Hotels
+              </p>
               <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
@@ -80,7 +160,29 @@ const Navbar = ({ children }) => {
             </div>
             <div className="pt-3 text-sm text-center">
               <p className=" hover:text-primary cursor-pointer">All Tours</p>
-              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">
+                Preferred Hotels
+              </p>
+              <p className=" hover:text-primary cursor-pointer">Experiences</p>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-24 mt-3"
+              style={{ backgroundImage: `url('${img2.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:border-b-2">
+                  Vietnam
+                </h2>
+              </div>
+            </div>
+            <div className="pt-3 text-sm text-center">
+              <p className=" hover:text-primary cursor-pointer">All Tours</p>
+              <p className=" hover:text-primary cursor-pointer">
+                Preferred Hotels
+              </p>
               <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
@@ -98,14 +200,16 @@ const Navbar = ({ children }) => {
             </div>
             <div className="pt-3 text-sm text-center">
               <p className=" hover:text-primary cursor-pointer">All Tours</p>
-              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">
+                Preferred Hotels
+              </p>
               <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
           <div>
             <div
               className="hero h-24 mt-3"
-              style={{ backgroundImage: `url('${img1.src}')` }}
+              style={{ backgroundImage: `url('${img2.src}')` }}
             >
               <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
               <div className="hero-content text-center text-neutral-content cursor-pointer">
@@ -116,79 +220,9 @@ const Navbar = ({ children }) => {
             </div>
             <div className="pt-3 text-sm text-center">
               <p className=" hover:text-primary cursor-pointer">All Tours</p>
-              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
-              <p className=" hover:text-primary cursor-pointer">Experiences</p>
-            </div>
-          </div>
-          <div>
-            <div
-              className="hero h-24 mt-3"
-              style={{ backgroundImage: `url('${img1.src}')` }}
-            >
-              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
-              <div className="hero-content text-center text-neutral-content cursor-pointer">
-                <h2 className="font-bold text-lg uppercase hover:border-b-2">
-                  Vietnam
-                </h2>
-              </div>
-            </div>
-            <div className="pt-3 text-sm text-center">
-              <p className=" hover:text-primary cursor-pointer">All Tours</p>
-              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
-              <p className=" hover:text-primary cursor-pointer">Experiences</p>
-            </div>
-          </div>
-          <div>
-            <div
-              className="hero h-24 mt-3"
-              style={{ backgroundImage: `url('${img1.src}')` }}
-            >
-              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
-              <div className="hero-content text-center text-neutral-content cursor-pointer">
-                <h2 className="font-bold text-lg uppercase hover:border-b-2">
-                  Vietnam
-                </h2>
-              </div>
-            </div>
-            <div className="pt-3 text-sm text-center">
-              <p className=" hover:text-primary cursor-pointer">All Tours</p>
-              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
-              <p className=" hover:text-primary cursor-pointer">Experiences</p>
-            </div>
-          </div>
-          <div>
-            <div
-              className="hero h-24 mt-3"
-              style={{ backgroundImage: `url('${img1.src}')` }}
-            >
-              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
-              <div className="hero-content text-center text-neutral-content cursor-pointer">
-                <h2 className="font-bold text-lg uppercase hover:border-b-2">
-                  Vietnam
-                </h2>
-              </div>
-            </div>
-            <div className="pt-3 text-sm text-center">
-              <p className=" hover:text-primary cursor-pointer">All Tours</p>
-              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
-              <p className=" hover:text-primary cursor-pointer">Experiences</p>
-            </div>
-          </div>
-          <div>
-            <div
-              className="hero h-24 mt-3"
-              style={{ backgroundImage: `url('${img1.src}')` }}
-            >
-              <div className="hero-overlay bg-opacity-40 bg-primary brightness-50 cursor-pointer"></div>
-              <div className="hero-content text-center text-neutral-content cursor-pointer">
-                <h2 className="font-bold text-lg uppercase hover:border-b-2">
-                  Vietnam
-                </h2>
-              </div>
-            </div>
-            <div className="pt-3 text-sm text-center">
-              <p className=" hover:text-primary cursor-pointer">All Tours</p>
-              <p className=" hover:text-primary cursor-pointer">Preferred Hotels</p>
+              <p className=" hover:text-primary cursor-pointer">
+                Preferred Hotels
+              </p>
               <p className=" hover:text-primary cursor-pointer">Experiences</p>
             </div>
           </div>
@@ -196,7 +230,20 @@ const Navbar = ({ children }) => {
       </div>
       <div className="dropdown dropdown-hover">
         <li tabIndex="0" className=" hover:text-primary">
-          <Link href="/">TOUR STYLES</Link>
+          <Link href="/">
+            <a>
+              TOUR STYLES
+              <svg
+                className="fill-current ml-0 pl-0"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
+            </a>
+          </Link>
         </li>
         <ul
           tabIndex="0"
@@ -223,12 +270,139 @@ const Navbar = ({ children }) => {
           </div>
         </ul>
       </div>
-      <li className="hover:text-primary">
-        <Link href="/">ABOUT</Link>
-      </li>
-      <li className="hover:text-primary">
-        <Link href="/">RESPONSIBLE</Link>
-      </li>
+      <div className="dropdown dropdown-hover lg:dropdown-end">
+        <li tabIndex="0" className="hover:text-primary">
+          <Link href="/">
+            <a>
+              ABOUT
+              <svg
+                className="fill-current ml-0 pl-0"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
+            </a>
+          </Link>
+        </li>
+        <ul
+          tabIndex="0"
+          className="dropdown-content z-40 px-4 pt-3 mt-1 bg-white lg:w-[600px] w-full lg:h-[300px] h-full grid lg:grid-cols-3 lg:gap-2 gap-2 grid-cols-1"
+        >
+          <div>
+            <div
+              className="hero h-28 w-full"
+              style={{ backgroundImage: `url('${img2.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:btn-link">
+                  exo story
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-28 w-full"
+              style={{ backgroundImage: `url('${img2.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:btn-link">
+                  exo people
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-28 w-full"
+              style={{ backgroundImage: `url('${img2.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40  brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:btn-link">
+                  exo values
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-28 w-full"
+              style={{ backgroundImage: `url('${img2.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:btn-link">
+                  why exo
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-28 w-full"
+              style={{ backgroundImage: `url('${img2.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40  brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:btn-link">
+                  careers
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="hero h-28 w-full"
+              style={{ backgroundImage: `url('${img2.src}')` }}
+            >
+              <div className="hero-overlay bg-opacity-40 brightness-50 cursor-pointer"></div>
+              <div className="hero-content text-center text-neutral-content cursor-pointer">
+                <h2 className="font-bold text-lg uppercase hover:btn-link">
+                  awards
+                </h2>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div className="dropdown dropdown-hover lg:dropdown-end">
+        <li tabIndex="0" className=" hover:text-primary">
+          <Link href="/">
+            <a>
+              RESPONSIBLE
+              <svg
+                className="fill-current ml-0 pl-0"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
+            </a>
+          </Link>
+        </li>
+        <ul
+          tabIndex="0"
+          className="dropdown-content z-40 p-3 mt-1 bg-white text-black w-[600px] h-[160px] grid lg:grid-cols-2 grid-cols-1"
+        >
+          <div className="pt-3 space-y-3 cursor-pointer">
+            <p className=" hover:text-primary uppercase">responsible experiences</p>
+            <p className=" hover:text-primary uppercase">responsible hotels</p>
+            <p className=" hover:text-primary uppercase">RESPONSIBLE travel</p>
+          </div>
+          <div className="pt-3 space-y-3 cursor-pointer">
+            <p className=" hover:text-primary uppercase">responsible tours</p>
+            <p className=" hover:text-primary uppercase">carbon neutral</p>
+          </div>
+        </ul>
+      </div>
       <li className="hover:text-primary">
         <Link href="/blogs">BLOGS</Link>
       </li>
