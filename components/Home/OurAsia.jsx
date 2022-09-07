@@ -30,140 +30,142 @@ const OurAsia = () => {
         </div>
       </div>
       <div className="bg-[#dbdbdb] pb-10">
-        <div className="grid lg:grid-cols-6 grid-cols-1 gap-3 px-3">
-          <div>
-            <div className="relative">
-              <div className="h-[216px] w-full">
-                <Image src={myanmar} alt="myanmar" height={512} />
+        <div className="grid grid-rows-1">
+          <div className="grid lg:grid-cols-3 grid-cols-1 gap-3 px-3">
+            <div>
+              <div className="relative h-64 w-full cursor-pointer">
+                <div className="">
+                  <Image src={myanmar} alt="myanmar" layout="fill" />
+                </div>
+                <div className="flex space-x-2 p-2 font-semibold justify-center items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
+                  <h1 className="text-xl">MYANMAR</h1>
+                  <p>
+                    <Image src={myicon} alt="myanmar" height={30} width={50} />
+                  </p>
+                </div>
               </div>
-              <div className="flex space-x-2 p-2 font-semibold justify-center items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
-                <h1 className="text-xl">MYANMAR</h1>
-                <p>
-                  <Image src={myicon} alt="myanmar" height={30} width={50} />
-                </p>
+            </div>
+            <div className="">
+              <div className="relative h-64 w-full cursor-pointer">
+                <div className="">
+                  <Image src={vietnam} alt="vietnam" layout="fill" />
+                </div>
+                <div className="flex justify-center space-x-2 py-2 items-center font-semibold bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
+                  <h1 className="text-xl uppercase">vietnam</h1>
+                  <p>
+                    <Image src={vicon} alt="vietnam" height={30} width={50} />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div className="relative h-64 w-full cursor-pointer">
+                <div className="">
+                  <Image src={thailand} alt="thailand" layout="fill" />
+                </div>
+                <div className="flex justify-center space-x-2 p-2 font-semibold items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
+                  <h1 className="text-xl uppercase">thailand</h1>
+                  <p>
+                    <Image src={thicon} alt="thailand" height={30} width={50} />
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div className="lg:col-span-3 col-auto">
-            <div className="relative">
-              <div className="h-[216px] w-full">
-                <Image src={vietnam} alt="vietnam" height={280} />
+          <div className="grid lg:grid-cols-2 grid-cols-1 bg-[#dbdbdb] gap-3 px-3 my-5">
+            <div>
+              <div className="relative h-64 w-full cursor-pointer">
+                <div className="">
+                  <Image src={vietnam} alt="vietnam" layout="fill" />
+                </div>
+                <div className="flex justify-center space-x-2 py-2 items-center font-semibold bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
+                  <h1 className="text-xl uppercase">vietnam</h1>
+                  <p>
+                    <Image src={vicon} alt="vietnam" height={30} width={50} />
+                  </p>
+                </div>
               </div>
-              <div className="flex justify-center space-x-2 py-2 items-center font-semibold bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
-                <h1 className="text-xl uppercase">vietnam</h1>
-                <p>
-                  <Image src={vicon} alt="vietnam" height={30} width={50} />
-                </p>
+            </div>
+            <div>
+              <div className="relative h-64 w-full cursor-pointer">
+                <div className="">
+                  <Image src={thailand} alt="thailand" layout="fill" />
+                </div>
+                <div className="flex justify-center space-x-2 p-2 font-semibold items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
+                  <h1 className="text-xl uppercase">thailand</h1>
+                  <p>
+                    <Image src={thicon} alt="thailand" height={30} width={50} />
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div className="lg:col-span-2 col-auto">
-            <div className="relative">
-              <div className="h-[216px] w-full">
-                <Image src={thailand} alt="thailand" height={334} />
+          <div className="grid lg:grid-cols-3 grid-cols-1 gap-3 px-3 mb-5 ">
+            <div>
+              <div className="relative h-64 w-full cursor-pointer">
+                <div className="">
+                  <Image src={myanmar} alt="myanmar" layout="fill" />
+                </div>
+                <div className="flex space-x-2 p-2 font-semibold justify-center items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
+                  <h1 className="text-xl">MYANMAR</h1>
+                  <p>
+                    <Image src={myicon} alt="myanmar" height={30} width={50} />
+                  </p>
+                </div>
               </div>
-              <div className="flex justify-center space-x-2 p-2 font-semibold items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
-                <h1 className="text-xl uppercase">thailand</h1>
-                <p>
-                  <Image src={thicon} alt="thailand" height={30} width={50} />
-                </p>
+            </div>
+            <div className="">
+              <div className="relative h-64 w-full cursor-pointer">
+                <div className="">
+                  <Image src={vietnam} alt="vietnam" layout="fill" />
+                </div>
+                <div className="flex justify-center space-x-2 py-2 items-center font-semibold bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
+                  <h1 className="text-xl uppercase">vietnam</h1>
+                  <p>
+                    <Image src={vicon} alt="vietnam" height={30} width={50} />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div className="relative h-64 w-full cursor-pointer">
+                <div className="">
+                  <Image src={thailand} alt="thailand" layout="fill" />
+                </div>
+                <div className="flex justify-center space-x-2 p-2 font-semibold items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
+                  <h1 className="text-xl uppercase">thailand</h1>
+                  <p>
+                    <Image src={thicon} alt="thailand" height={30} width={50} />
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="grid lg:grid-cols-2 grid-cols-1 bg-[#dbdbdb] gap-3 px-3 my-5">
-          <div>
-            <div className="relative">
-              <div className="h-[250px] w-full">
-                <Image src={vietnam} alt="vietnam" height={323} />
-              </div>
-              <div className="flex justify-center space-x-2 py-2 items-center font-semibold bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
-                <h1 className="text-xl uppercase">vietnam</h1>
-                <p>
-                  <Image src={vicon} alt="vietnam" height={30} width={50} />
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="relative">
-              <div className="h-[250px] w-full">
-                <Image src={thailand} alt="thailand" height={255} />
-              </div>
-              <div className="flex justify-center space-x-2 p-2 font-semibold items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
-                <h1 className="text-xl uppercase">thailand</h1>
-                <p>
-                  <Image src={thicon} alt="thailand" height={30} width={50} />
-                </p>
+          <div className="grid lg:grid-cols-2 grid-cols-1 bg-[#dbdbdb] gap-3 px-3">
+            <div>
+              <div className="relative h-64 w-full cursor-pointer">
+                <div className="">
+                  <Image src={vietnam} alt="vietnam" layout="fill" />
+                </div>
+                <div className="flex justify-center space-x-2 py-2 items-center font-semibold bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
+                  <h1 className="text-xl uppercase">vietnam</h1>
+                  <p>
+                    <Image src={vicon} alt="vietnam" height={30} width={50} />
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="grid lg:grid-cols-6 grid-cols-1 gap-3 px-3 my-5 ">
-          <div>
-            <div className="relative">
-              <div className="h-[216px] w-full">
-                <Image src={myanmar} alt="myanmar" height={512} />
-              </div>
-              <div className="flex space-x-2 p-2 font-semibold justify-center items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
-                <h1 className="text-xl">MYANMAR</h1>
-                <p>
-                  <Image src={myicon} alt="myanmar" height={30} width={50} />
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:col-span-3 col-auto">
-            <div className="relative">
-              <div className="h-[216px] w-full">
-                <Image src={vietnam} alt="vietnam" height={280} />
-              </div>
-              <div className="flex justify-center space-x-2 py-2 items-center font-semibold bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
-                <h1 className="text-xl uppercase">vietnam</h1>
-                <p>
-                  <Image src={vicon} alt="vietnam" height={30} width={50} />
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:col-span-2 col-auto">
-            <div className="relative">
-              <div className="h-[216px] w-full">
-                <Image src={thailand} alt="thailand" height={334} />
-              </div>
-              <div className="flex justify-center space-x-2 p-2 font-semibold items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
-                <h1 className="text-xl uppercase">thailand</h1>
-                <p>
-                  <Image src={thicon} alt="thailand" height={30} width={50} />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="grid lg:grid-cols-2 grid-cols-1 bg-[#dbdbdb] gap-3 px-3 my-5">
-          <div>
-            <div className="relative">
-              <div className="h-[250px] w-full">
-                <Image src={vietnam} alt="vietnam" height={323} />
-              </div>
-              <div className="flex justify-center space-x-2 py-2 items-center font-semibold bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
-                <h1 className="text-xl uppercase">vietnam</h1>
-                <p>
-                  <Image src={vicon} alt="vietnam" height={30} width={50} />
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="relative">
-              <div className="h-[250px] w-full">
-                <Image src={thailand} alt="thailand" height={255} />
-              </div>
-              <div className="flex justify-center space-x-2 p-2 font-semibold items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
-                <h1 className="text-xl uppercase">thailand</h1>
-                <p>
-                  <Image src={thicon} alt="thailand" height={30} width={50} />
-                </p>
+            <div>
+              <div className="relative h-64 w-full cursor-pointer">
+                <div className="">
+                  <Image src={thailand} alt="thailand" layout="fill" />
+                </div>
+                <div className="flex justify-center space-x-2 p-2 font-semibold items-center bg-black opacity-60 text-white absolute bottom-0 w-full hover:h-full transition-all">
+                  <h1 className="text-xl uppercase">thailand</h1>
+                  <p>
+                    <Image src={thicon} alt="thailand" height={30} width={50} />
+                  </p>
+                </div>
               </div>
             </div>
           </div>
