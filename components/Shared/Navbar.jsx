@@ -422,9 +422,11 @@ const Navbar = ({ children }) => {
             className={`w-full flex navbar bg-white justify-between items-center fixed top-0 z-50`}
           >
             <div>
-              <div className="flex text-6xl text-primary font-bold tracking-wider pl-6">
-                EXO
-              </div>
+              <Link href={'/'}>
+                <div className="flex text-6xl cursor-pointer text-primary font-bold tracking-wider pl-6">
+                  EXO
+                </div>
+              </Link>
             </div>
 
             <div className="lg:hidden flex-1 justify-end mr-4">
