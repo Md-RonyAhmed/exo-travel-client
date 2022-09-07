@@ -230,7 +230,7 @@ const Navbar = ({ children }) => {
       </div>
       <div className="dropdown dropdown-hover">
         <li tabIndex="0" className=" hover:text-primary">
-          <Link href="/">
+          <Link href="/tours">
             <a>
               TOUR STYLES
               <svg
