@@ -29,7 +29,7 @@ const StandFor = () => {
       <div className="px-10">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 px-3 my-5">
           <div>
-            <div className="relative">
+            <div className="relative cursor-pointer hover:opacity-90">
               <div className="h-[250px] w-full">
                 <Image src={about} alt="about" height={250} width={600} />
               </div>
@@ -47,7 +47,7 @@ const StandFor = () => {
             </div>
           </div>
           <div>
-            <div className="relative">
+            <div className="relative cursor-pointer hover:opacity-90">
               <div className="h-[250px] w-full">
                 <Image
                   src={responsible}

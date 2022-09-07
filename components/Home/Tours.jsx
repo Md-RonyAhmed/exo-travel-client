@@ -27,51 +27,117 @@ const Tours = () => {
       <div className="bg-[#dbdbdb] pb-16">
         <div className=" grid grid-rows-1 mx-4">
           <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
-            <div className="h-72 relative bg-slate-300">
+            <div className="h-72 relative cursor-pointer hover:opacity-90">
               <div>
                 <div className="">
                   <Image src={tour1} alt="myanmar" layout="fill" />
                 </div>
-                <div className="absolute top-0 left-12 mt-3 text-white">
+                <div className="absolute top-0 ml-12 mt-3 text-white">
                   <h1 className="text-center font-bold text-2xl">
                     Trek the Headhunters Trail
                   </h1>
                   <p className="text-center font-semibold text-lg">Malaysia</p>
                 </div>
+                <div className="absolute bottom-0 ml-24 text-white">
+                  <hr />
+                  <h1 className="text-center font-bold mb-2 text-xl">
+                    4 DAYS / 3 NIGHTS
+                  </h1>
+                </div>
               </div>
             </div>
-            <div className="h-72 relative bg-slate-300">
+            <div className="h-72 relative cursor-pointer hover:opacity-90">
               <div>
                 <div className="">
                   <Image src={tour2} alt="myanmar" layout="fill" />
                 </div>
+                <div className="absolute top-0 ml-12 mt-3 text-white">
+                  <h1 className="text-center font-bold text-2xl">
+                    Trek the Headhunters Trail
+                  </h1>
+                  <p className="text-center font-semibold text-lg">Malaysia</p>
+                </div>
+                <div className="absolute bottom-0 ml-24 text-white">
+                  <hr />
+                  <h1 className="text-center font-bold mb-2 text-xl">
+                    4 DAYS / 3 NIGHTS
+                  </h1>
+                </div>
               </div>
             </div>
-            <div className="h-72 relative bg-slate-300">
+            <div className="h-72 relative cursor-pointer hover:opacity-90">
               <div>
                 <div className="">
                   <Image src={tour1} alt="myanmar" layout="fill" />
                 </div>
+                <div className="absolute top-0 ml-12 mt-3 text-white">
+                  <h1 className="text-center font-bold text-2xl">
+                    Trek the Headhunters Trail
+                  </h1>
+                  <p className="text-center font-semibold text-lg">Malaysia</p>
+                </div>
+                <div className="absolute bottom-0 ml-24 text-white">
+                  <hr />
+                  <h1 className="text-center font-bold mb-2 text-xl">
+                    4 DAYS / 3 NIGHTS
+                  </h1>
+                </div>
               </div>
             </div>
-            <div className="h-72 relative bg-slate-300">
+            <div className="h-72 relative cursor-pointer hover:opacity-90">
               <div>
                 <div className="">
                   <Image src={tour2} alt="myanmar" layout="fill" />
                 </div>
+                <div className="absolute top-0 ml-12 mt-3 text-white">
+                  <h1 className="text-center font-bold text-2xl">
+                    Trek the Headhunters Trail
+                  </h1>
+                  <p className="text-center font-semibold text-lg">Malaysia</p>
+                </div>
+                <div className="absolute bottom-0 ml-24 text-white">
+                  <hr />
+                  <h1 className="text-center font-bold mb-2 text-xl">
+                    4 DAYS / 3 NIGHTS
+                  </h1>
+                </div>
               </div>
             </div>
-            <div className="h-72 relative bg-slate-300">
+            <div className="h-72 relative cursor-pointer hover:opacity-90">
               <div>
                 <div className="">
                   <Image src={tour1} alt="myanmar" layout="fill" />
                 </div>
+                <div className="absolute top-0 ml-12 mt-3 text-white">
+                  <h1 className="text-center font-bold text-2xl">
+                    Trek the Headhunters Trail
+                  </h1>
+                  <p className="text-center font-semibold text-lg">Malaysia</p>
+                </div>
+                <div className="absolute bottom-0 ml-24 text-white">
+                  <hr />
+                  <h1 className="text-center font-bold mb-2 text-xl">
+                    4 DAYS / 3 NIGHTS
+                  </h1>
+                </div>
               </div>
             </div>
-            <div className="h-72 relative bg-slate-300">
+            <div className="h-72 relative cursor-pointer hover:opacity-90">
               <div>
                 <div className="">
                   <Image src={tour2} alt="myanmar" layout="fill" />
+                </div>
+                <div className="absolute top-0 ml-12 mt-3 text-white">
+                  <h1 className="text-center font-bold text-2xl">
+                    Trek the Headhunters Trail
+                  </h1>
+                  <p className="text-center font-semibold text-lg">Malaysia</p>
+                </div>
+                <div className="absolute bottom-0 ml-24 text-white">
+                  <hr />
+                  <h1 className="text-center font-bold mb-2 text-xl">
+                    4 DAYS / 3 NIGHTS
+                  </h1>
                 </div>
               </div>
             </div>
