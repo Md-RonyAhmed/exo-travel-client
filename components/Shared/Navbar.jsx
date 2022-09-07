@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import img1 from "./../../assets/images/destinations/vietnam.webp"
-import img2 from "./../../assets/images/others/whyEXO.jpg"
+import img1 from "./../../assets/images/destinations/vietnam.webp";
+import img2 from "./../../assets/images/others/whyEXO.jpg";
 const Navbar = ({ children }) => {
   const navBar = (
     <>
       <div className="dropdown dropdown-hover">
         <li tabIndex="0" className="hover:text-primary">
-          <Link href="/">
+          <Link href="/destinations">
             <a>
               DESTINATIONS
               <svg
@@ -393,7 +393,9 @@ const Navbar = ({ children }) => {
           className="dropdown-content z-40 p-3 mt-1 bg-white text-black w-[600px] h-[160px] grid lg:grid-cols-2 grid-cols-1"
         >
           <div className="pt-3 space-y-3 cursor-pointer">
-            <p className=" hover:text-primary uppercase">responsible experiences</p>
+            <p className=" hover:text-primary uppercase">
+              responsible experiences
+            </p>
             <p className=" hover:text-primary uppercase">responsible hotels</p>
             <p className=" hover:text-primary uppercase">RESPONSIBLE travel</p>
           </div>
@@ -444,7 +446,9 @@ const Navbar = ({ children }) => {
             </div>
 
             <div className="flex-none hidden lg:block">
-              <ul className={`menu menu-horizontal p-0 m-0 font-semibold tracking-widest text-black`}>
+              <ul
+                className={`menu menu-horizontal p-0 m-0 font-semibold tracking-widest text-black`}
+              >
                 {navBar}
               </ul>
             </div>
