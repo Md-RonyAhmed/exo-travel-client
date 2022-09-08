@@ -37,7 +37,7 @@ const DestinationsBody = () => {
           </p>
         </div>
       </div>
-      <div className="bg-white pb-10">
+      <div className="bg-white">
         <div className="grid grid-rows-1">
           <div className="grid lg:grid-cols-3 grid-cols-1 gap-3 px-3">
             <div>
