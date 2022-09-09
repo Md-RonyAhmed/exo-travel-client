@@ -272,7 +272,7 @@ const Navbar = ({ children }) => {
       </div>
       <div className="dropdown dropdown-hover lg:dropdown-end">
         <li tabIndex="0" className="hover:text-primary">
-          <Link href="/">
+          <Link href="/about">
             <a>
               ABOUT
               <svg
