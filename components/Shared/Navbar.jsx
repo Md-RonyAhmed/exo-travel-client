@@ -299,7 +299,7 @@ const Navbar = ({ children }) => {
               <div className="hero-overlay bg-opacity-40 brightness-50 cursor-pointer"></div>
               <div className="hero-content text-center text-neutral-content cursor-pointer">
                 <h2 className="font-bold text-lg uppercase hover:btn-link">
-                  exo story
+                  DMC story
                 </h2>
               </div>
             </div>
@@ -312,7 +312,7 @@ const Navbar = ({ children }) => {
               <div className="hero-overlay bg-opacity-40 brightness-50 cursor-pointer"></div>
               <div className="hero-content text-center text-neutral-content cursor-pointer">
                 <h2 className="font-bold text-lg uppercase hover:btn-link">
-                  exo people
+                  DMC people
                 </h2>
               </div>
             </div>
@@ -325,7 +325,7 @@ const Navbar = ({ children }) => {
               <div className="hero-overlay bg-opacity-40  brightness-50 cursor-pointer"></div>
               <div className="hero-content text-center text-neutral-content cursor-pointer">
                 <h2 className="font-bold text-lg uppercase hover:btn-link">
-                  exo values
+                  DMC values
                 </h2>
               </div>
             </div>
@@ -338,7 +338,7 @@ const Navbar = ({ children }) => {
               <div className="hero-overlay bg-opacity-40 brightness-50 cursor-pointer"></div>
               <div className="hero-content text-center text-neutral-content cursor-pointer">
                 <h2 className="font-bold text-lg uppercase hover:btn-link">
-                  why exo
+                  why DMC
                 </h2>
               </div>
             </div>
@@ -424,7 +424,7 @@ const Navbar = ({ children }) => {
             <div>
               <Link href={'/'}>
                 <div className="flex text-6xl cursor-pointer text-primary font-bold tracking-wider pl-6">
-                  EXO
+                  DMC
                 </div>
               </Link>
             </div>

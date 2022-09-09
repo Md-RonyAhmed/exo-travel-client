@@ -23,7 +23,7 @@ const Banner = () => {
                 <div className="relative">
                   <input
                     type="text"
-                    placeholder="Search EXO.."
+                    placeholder="Search DMC.."
                     className="input input-bordered w-full text-gray-700 text-base bg-white rounded-none"
                   />
                   <button className="btn btn-primary absolute top-0 right-0 rounded-none text-base bg-green-400 hover:bg-primary">

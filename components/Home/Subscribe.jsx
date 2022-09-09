@@ -10,7 +10,7 @@ const Subscribe = () => {
         </h2>
         <hr className="lg:w-3/12 w-1/2 mx-auto border-[1.3px] border-white bg-white" />
         <p className="lg:w-4/5 w-full mx-auto mb-10 mt-5 lg:text-2xl text-lg text-[#5e6163]">
-          The world of EXO Travel is always evolving. Stay in touch and we'll
+          The world of DMC Travel is always evolving. Stay in touch and we'll
           keep you up to speed.
         </p>
         <div className="form-control text-white h-24">

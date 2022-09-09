@@ -17,7 +17,7 @@ const Tours = () => {
           </h2>
           <hr className="lg:w-1/6 w-1/2 mx-auto border-[1.3px] border-white bg-white" />
           <p className="lg:w-4/5 w-full mx-auto mb-10 mt-5 lg:text-2xl text-lg text-[#5e6163]">
-            Here at EXO, we're all travelers at heart. This is reflected in the
+            Here at DMC, we're all travelers at heart. This is reflected in the
             exciting and immersive range of tours across Asia we've meticulously
             crafted. Here's a shortlist of tours we're especially proud of to
             fuel some wanderlust.

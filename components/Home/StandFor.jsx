@@ -34,7 +34,7 @@ const StandFor = () => {
                 <Image src={about} alt="about" height={250} width={600} />
               </div>
               <div className="flex justify-between  items-center py-8 px-5 font-semibold text-white absolute top-0 w-full">
-                <h1 className="text-3xl font-bold">About EXO</h1>
+                <h1 className="text-3xl font-bold">About DMC</h1>
                 <p>
                   <Image
                     src={abouticon}

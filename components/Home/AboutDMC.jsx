@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import icon from "./../../assets/images/others/exo-logo2.svg";
-const AboutEXO = () => {
+const AboutDMC = () => {
   return (
     <div>
       <div className="bg-white lg:py-20 p-8 text-center">
@@ -27,4 +27,4 @@ const AboutEXO = () => {
   );
 };
 
-export default AboutEXO;
+export default AboutDMC;

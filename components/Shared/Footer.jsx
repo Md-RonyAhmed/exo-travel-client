@@ -69,7 +69,7 @@ const Footer = () => {
             md:justify-start
           "
               >
-                EXO
+                DMC
               </h6>
               <div className="form-control text-white pt-4 space-y-3">
                 <label className="mt-2">
@@ -93,17 +93,17 @@ const Footer = () => {
               </h6>
               <p>
                 <a href="#!" className="text-white hover:text-primary">
-                  The EXO Travel Story
+                  The DMC Travel Story
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-white hover:text-primary">
-                  EXO People
+                  DMC People
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-white hover:text-primary">
-                  EXO Values
+                  DMC Values
                 </a>
               </p>
               <p>
@@ -219,7 +219,7 @@ const Footer = () => {
         <div className="text-center p-6 bg-[#494949] text-xs text-zinc-400">
           <span>© 2022 Copyright: </span>
           <Link className="text-white font-semibold" href="/">
-            EXO travel all right reserved
+            DMC travel all right reserved
           </Link>
         </div>
       </footer>

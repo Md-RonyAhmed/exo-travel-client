@@ -1,4 +1,4 @@
-import bgImage from "./../../assets/images/about/header-aboutus-humanlogo.jpg";
+import bgImage from "./../../assets/images/tours/philipp-trubchenko-bXszQFO-Src-unsplash-min.jpg";
 
 const Banner = () => {
   return (
@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="hero-overlay bg-opacity-50"></div>
         <div className="space-y-4">
           <h1 className="lg:text-7xl md:text-6xl font-semibold text-5xl text-white text-center">
-            About EXO Travels..
+            About DMC Travels..
           </h1>
           <p className="text-2xl font-semibold text-white text-center">
             Where will you go?
