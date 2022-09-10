@@ -3,7 +3,7 @@
 
 const Subscribe = () => {
   return (
-    <div className="text-center mt-0 z-10">
+    <div className="text-center mt-0 z-10" id="sub">
       <div className="bg-[#dbdbdb] lg:py-12 lg:p-8">
         <h2 className="text-3xl tracking-wide text-[#444444] mb-4">
           SUBSCRIBE TO OUR NEWSLETTER

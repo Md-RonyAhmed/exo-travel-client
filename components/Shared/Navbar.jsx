@@ -419,7 +419,7 @@ const Navbar = ({ children }) => {
         <input id="sidebar" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
           <div
-            className={`w-full flex navbar bg-white justify-between items-center fixed top-0 z-50`}
+            className={`w-full flex navbar bg-white justify-between items-center fixed top-0 z-50 shadow-lg`}
           >
             <div>
               <Link href={'/'}>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BsSearch, BsChatSquareText, BsEnvelope } from "react-icons/bs";
 const Banner = () => {
   return (
@@ -39,8 +40,10 @@ const Banner = () => {
                 <p className="text-xl pt-1">
                   <BsChatSquareText />
                 </p>
-                <p className="font-semibold text-lg uppercase ml-2">
-                  Get in touch
+                <p className="font-semibold text-lg uppercase cursor-pointer ml-2">
+                  <label htmlFor="my-modal-3" className="cursor-pointer">
+                    Get in touch
+                  </label>
                 </p>
               </div>
             </div>
@@ -49,9 +52,11 @@ const Banner = () => {
                 <p className="text-xl -rotate-45">
                   <BsEnvelope />
                 </p>
-                <p className="ml-2 font-semibold text-lg uppercase">
-                  newsletter
-                </p>
+                <Link href="/#sub">
+                  <a className="ml-2 font-semibold text-lg uppercase">
+                    newsletter
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
