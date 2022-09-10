@@ -17,7 +17,7 @@ import Social from "./Social";
 const Footer = () => {
   return (
     <>
-      <Social/>
+      <Social />
       <div className="py-8 px-4 text-center grid lg:grid-cols-11 grid-cols-2">
         <p>
           <Image src={cer1} width={100} height={50} alt="img"></Image>
@@ -92,18 +92,22 @@ const Footer = () => {
                 Useful links
               </h6>
               <p>
-                <a href="#!" className="text-white hover:text-primary">
-                  The DMC Travel Story
-                </a>
+                <Link href="/destinations">
+                  <a className="text-white hover:text-primary">
+                    The DMC Travel Destinations
+                  </a>
+                </Link>
+              </p>
+              <p>
+                <Link href="/tours">
+                  <a className="text-white hover:text-primary">
+                    DMC Tours Styles
+                  </a>
+                </Link>
               </p>
               <p>
                 <a href="#!" className="text-white hover:text-primary">
-                  DMC People
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-white hover:text-primary">
-                  DMC Values
+                  About DMC
                 </a>
               </p>
               <p>

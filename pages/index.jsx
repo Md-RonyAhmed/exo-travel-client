@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
-      <AboutDMC />
+      <AboutDMC title={"WHY DMC"} pera={"We've been pioneering unique journeys in Asia for more than two decades. Across each of the nine countries we operate in, we've developed in-depth tours that go far beyond the surface to reveal the heart of each destination. Along with our team of local and in-destination travel experts and time-tested logistics, we combine encyclopedic knowledge of the region with a progressive vision to make us one of Asia's most trusted and exciting DMCs."} btnTitle="Discover More" />
       <OurAsia />
       <StandFor />
       <Tours />

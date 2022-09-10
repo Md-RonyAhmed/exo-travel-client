@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AboutBody from "../components/About/AboutBody";
 import Banner from "../components/About/Banner";
 
 
@@ -11,6 +12,7 @@ const about = () => {
            <link rel="icon" href="/favicon.ico" />
          </Head>
          <Banner />
+         <AboutBody/>
        </>
      );
 };
