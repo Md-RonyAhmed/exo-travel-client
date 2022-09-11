@@ -407,7 +407,7 @@ const Navbar = ({ children }) => {
         </ul>
       </div>
       <li className="hover:text-primary">
-        <Link href="/">BLOGS</Link>
+        <Link href="/blogs">BLOGS</Link>
       </li>
       <li className="hover:bg-primary hover:text-white rounded-md mr-6">
           <label htmlFor="my-modal-3">ENQUIRE</label>
