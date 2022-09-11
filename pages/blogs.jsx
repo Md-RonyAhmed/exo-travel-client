@@ -5,7 +5,7 @@ const Blogs = () => {
     <>
       <div
         className="hero h-80 "
-        style={{ backgroundImage: `url('${bgImage.src}')` }}
+        style={{ backgroundImage: `url('${bgImage.src}')`}}
       >
         <div className="hero-overlay bg-opacity-30"></div>
         <div className="space-y-4">
@@ -19,7 +19,7 @@ const Blogs = () => {
       </div>
       <div className="my-20 text-center">
         <h2 className="text-3xl font-semibold mb-4">Coming soon...</h2>
-        <h4 className="text-xl font-semibold">Stay tune with us...</h4>
+        <h4 className="text-xl font-semibold">Stay tune with us</h4>
       </div>
       <Subscribe />
     </>
