@@ -1,4 +1,4 @@
-import bgImage from "./../assets/images/tours/styleheader-landingpage-opt2.jpg";
+import bgImage from "./../assets/images/others/EXO-TRAVEL-BLOG-HEADER-1-818x474.jpg";
 import Subscribe from "../components/Home/Subscribe";
 const Blogs = () => {
   return (
