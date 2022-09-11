@@ -248,7 +248,7 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 p-3 mt-1 bg-white text-black w-[720px] h-[230px] grid lg:grid-cols-3 grid-cols-1"
+          className="dropdown-content z-40 p-4 gap-3 mt-1 bg-white text-black w-[650px] h-[230px] grid lg:grid-cols-3 grid-cols-1"
         >
           <div className="pt-3 space-y-3 cursor-pointer">
             <p className=" hover:text-primary uppercase">classic journeys</p>
@@ -417,10 +417,9 @@ const Navbar = ({ children }) => {
   const { nav } = useNav();
   return (
     <>
-      <div className="drawer drawer-end h-full">
+      <div className="drawer drawer-end lg:h-full md:h-full h-screen">
         <input id="sidebar" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
-          {children}
           <div
             className={`w-full flex navbar justify-between text-white items-center fixed top-0 z-50 transition-all ${
               nav && "bg-white shadow-md text-black"
@@ -463,6 +462,7 @@ const Navbar = ({ children }) => {
               </ul>
             </div>
           </div>
+            {children}
         </div>
         <div className="drawer-side">
           <label htmlFor="sidebar" className="drawer-overlay"></label>
