@@ -25,7 +25,7 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 p-3 mt-1 bg-white text-black lg:w-[750px] w-full lg:h-[400px] h-full grid lg:grid-cols-5 lg:gap-3 gap-0 grid-cols-1"
+          className="dropdown-content z-40 p-3 mt-1 bg-white text-black lg:w-[750px] w-full lg:h-[400px] h-full grid lg:grid-cols-5 lg:gap-3 gap-0 grid-cols-1 rounded"
         >
           <div>
             <div
@@ -248,7 +248,7 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 p-4 gap-3 mt-1 bg-white text-black w-[650px] h-[230px] grid lg:grid-cols-3 grid-cols-1"
+          className="dropdown-content z-40 p-4 gap-3 mt-1 bg-white rounded text-black w-[650px] h-[230px] grid lg:grid-cols-3 grid-cols-1"
         >
           <div className="pt-3 space-y-3 cursor-pointer">
             <p className=" hover:text-primary uppercase">classic journeys</p>
@@ -290,7 +290,7 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 px-4 pt-3 mt-1 bg-white lg:w-[600px] w-full lg:h-[300px] h-full grid lg:grid-cols-3 lg:gap-2 gap-2 grid-cols-1"
+          className="dropdown-content z-40 px-4 pt-3 mt-1 rounded bg-white lg:w-[600px] w-full lg:h-[300px] h-full grid lg:grid-cols-3 lg:gap-2 gap-2 grid-cols-1"
         >
           <div>
             <div
@@ -391,7 +391,7 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 p-3 mt-1 bg-white text-black w-[600px] h-[160px] grid lg:grid-cols-2 grid-cols-1"
+          className="dropdown-content z-40 p-3 mt-1 rounded bg-white text-black w-[600px] h-[160px] grid lg:grid-cols-2 grid-cols-1"
         >
           <div className="pt-3 space-y-3 cursor-pointer">
             <p className=" hover:text-primary uppercase">

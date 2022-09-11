@@ -6,7 +6,9 @@ const Modal = () => {
        <>
          <input type="checkbox" id="my-modal-3" className="modal-toggle" />
          <div className="modal">
-           <div className="modal-box rounded-none w-11/12 max-w-3xl relative">
+           <div
+             className="modal-box w-full min-h-full max-w-3xl relative rounded"
+           >
              <label
                htmlFor="my-modal-3"
                className="btn btn-sm btn-circle absolute bg-primary border-none right-2 top-2"
