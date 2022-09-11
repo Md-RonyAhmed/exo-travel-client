@@ -1,5 +1,3 @@
-
-
 import bgImage from "./../assets/images/tours/styleheader-landingpage-opt2.jpg";
 import Subscribe from "../components/Home/Subscribe";
 const Blogs = () => {
@@ -18,12 +16,12 @@ const Blogs = () => {
             Read what you like?
           </p>
         </div>
-            </div>
-            <div className="my-20 text-center">
-                 <h2 className="text-3xl font-semibold mb-4">Coming soon...</h2>
-                 <h2 className="text-xl font-semibold">Stay tune with us...</h2>
-            </div>
-            <Subscribe/>
+      </div>
+      <div className="my-20 text-center">
+        <h2 className="text-3xl font-semibold mb-4">Coming soon...</h2>
+        <h4 className="text-xl font-semibold">Stay tune with us...</h4>
+      </div>
+      <Subscribe />
     </>
   );
 };
