@@ -1,4 +1,5 @@
-import bgImage from "./../../assets/images/tours/styleheader-landingpage-opt2.jpg";
+/* eslint-disable react/no-unescaped-entities */
+import bgImage from "./../../assets/images/responsible/responsible-bg2_1.jpg";
 
 const Banner = () => {
   return (
@@ -10,10 +11,10 @@ const Banner = () => {
         <div className="hero-overlay bg-opacity-30"></div>
         <div className="space-y-4">
           <h1 className="lg:text-7xl md:text-6xl font-semibold text-5xl text-white text-center">
-            DMC Tour Styles..
+            We are responsible..
           </h1>
           <p className="text-2xl font-semibold text-white text-center">
-            Which styles do you like?
+            Don't worry?
           </p>
         </div>
       </div>

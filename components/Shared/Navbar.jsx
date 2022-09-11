@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import useNav from "../../hooks/useNav";
 import img1 from "./../../assets/images/destinations/vietnam.webp";
 import img2 from "./../../assets/images/others/whyEXO.jpg";
 const Navbar = ({ children }) => {
@@ -24,7 +25,7 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 p-3 mt-1 bg-white lg:w-[750px] w-full lg:h-[400px] h-full grid lg:grid-cols-5 lg:gap-3 gap-0 grid-cols-1"
+          className="dropdown-content z-40 p-3 mt-1 bg-white text-black lg:w-[750px] w-full lg:h-[400px] h-full grid lg:grid-cols-5 lg:gap-3 gap-0 grid-cols-1"
         >
           <div>
             <div
@@ -247,7 +248,7 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 p-3 mt-1 bg-white w-[720px] h-[230px] grid lg:grid-cols-3 grid-cols-1"
+          className="dropdown-content z-40 p-3 mt-1 bg-white text-black w-[720px] h-[230px] grid lg:grid-cols-3 grid-cols-1"
         >
           <div className="pt-3 space-y-3 cursor-pointer">
             <p className=" hover:text-primary uppercase">classic journeys</p>
@@ -373,7 +374,7 @@ const Navbar = ({ children }) => {
       </div>
       <div className="dropdown dropdown-hover lg:dropdown-end">
         <li tabIndex="0" className=" hover:text-primary">
-          <Link href="/">
+          <Link href="/responsible">
             <a>
               RESPONSIBLE
               <svg
@@ -408,22 +409,30 @@ const Navbar = ({ children }) => {
       <li className="hover:text-primary">
         <Link href="/">BLOGS</Link>
       </li>
-      <li className="bg-primary hover:text-white rounded-md mr-6">
+      <li className="hover:bg-primary hover:text-white rounded-md mr-6">
           <label htmlFor="my-modal-3">ENQUIRE</label>
       </li>
     </>
   );
+  const { nav } = useNav();
   return (
     <>
-      <div className="drawer drawer-end">
+      <div className="drawer drawer-end h-full">
         <input id="sidebar" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
+          {children}
           <div
-            className={`w-full flex navbar bg-white justify-between items-center fixed top-0 z-50 shadow-lg`}
+            className={`w-full flex navbar justify-between text-white items-center fixed top-0 z-50 transition-all ${
+              nav && "bg-white shadow-md text-black"
+            }`}
           >
             <div>
-              <Link href={'/'}>
-                <div className="flex text-6xl cursor-pointer text-primary font-bold tracking-wider pl-6">
+              <Link href={"/"}>
+                <div
+                  className={`flex text-6xl cursor-pointer text-white font-bold tracking-wider pl-6 ${
+                    nav && "text-primary"
+                  }`}
+                >
                   DMC
                 </div>
               </Link>
@@ -446,16 +455,14 @@ const Navbar = ({ children }) => {
                 </svg>
               </label>
             </div>
-
             <div className="flex-none hidden lg:block">
               <ul
-                className={`menu menu-horizontal p-0 m-0 font-semibold tracking-widest text-black`}
+                className={`menu menu-horizontal p-0 m-0 font-semibold tracking-widest`}
               >
                 {navBar}
               </ul>
             </div>
           </div>
-          {children}
         </div>
         <div className="drawer-side">
           <label htmlFor="sidebar" className="drawer-overlay"></label>

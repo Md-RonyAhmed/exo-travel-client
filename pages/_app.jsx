@@ -15,6 +15,6 @@ function MyApp({ Component, pageProps }) {
       </Navbar>
     </>
   );
-}
+};
 
 export default MyApp;

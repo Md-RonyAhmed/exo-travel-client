@@ -106,19 +106,23 @@ const Footer = () => {
                 </Link>
               </p>
               <p>
-                <a href="#!" className="text-white hover:text-primary">
-                  About DMC
-                </a>
+                <Link href="/about">
+                  <a className="text-white hover:text-primary">About DMC</a>
+                </Link>
               </p>
               <p>
-                <a href="#!" className="text-white hover:text-primary">
-                  Why Travel with us
-                </a>
+                <Link href="/about">
+                  <a className="text-white hover:text-primary">
+                    Why Travel with us
+                  </a>
+                </Link>
               </p>
               <p>
-                <a href="#!" className="text-white hover:text-primary">
-                  Responsible Travel
-                </a>
+                <Link href="/responsible">
+                  <a className="text-white hover:text-primary">
+                    Responsible Travel
+                  </a>
+                </Link>
               </p>
             </div>
             <div className="tracking-wider text-lg">
