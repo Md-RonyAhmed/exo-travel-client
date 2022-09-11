@@ -18,7 +18,7 @@ const Blogs = () => {
         </div>
       </div>
       <div className="my-20 text-center">
-        <h2 className="text-3xl font-semibold mb-4 text-primary">Coming soon...</h2>
+        <h2 className="text-4xl font-semibold mb-4 text-primary">Coming soon...</h2>
         <h4 className="text-xl font-semibold">Stay tune with us</h4>
       </div>
       <Subscribe />
