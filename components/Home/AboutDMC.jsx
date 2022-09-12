@@ -10,7 +10,7 @@ const AboutDMC = ({ title, pera, btnTitle }) => {
       <div className="bg-white lg:pt-20 py-8 text-center">
         <h2 className="text-3xl tracking-wide text-[#444444] mb-4">{title}</h2>
         <hr className="lg:w-1/6 w-1/2 mx-auto border-[1.3px] border-gray-300 bg-gray-300" />
-        <p className="lg:w-11/12 w-full mx-auto mb-10 mt-5 lg:text-2xl text-lg text-gray-700">
+        <p className="lg:w-10/12 w-full mx-auto mb-10 mt-5 lg:text-2xl text-lg text-gray-700">
           {pera}
         </p>
       {router.route==="/about"?<Link href={"/"}>

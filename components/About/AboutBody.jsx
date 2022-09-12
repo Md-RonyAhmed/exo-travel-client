@@ -12,54 +12,7 @@ const AboutBody = () => {
            }
            btnTitle={"Learn More"}
          />
-         <div>
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-         </div>
-         <div className="bg-primary">
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-         </div>
+        
          <AboutDMC
            title={"OUR JOURNEY"}
            pera={
@@ -67,54 +20,6 @@ const AboutBody = () => {
            }
            btnTitle={"View full story"}
          />
-         <div className="bg-primary">
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-         </div>
-         <div>
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-         </div>
          <div className="mt-10">
            <Image src={img} alt="img"></Image>
          </div>
@@ -125,54 +30,6 @@ const AboutBody = () => {
            }
            btnTitle={"our people"}
          />
-         <div className="bg-primary">
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-         </div>
-         <div>
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-           <hr />
-         </div>
        </>
      );
 };
