@@ -1,10 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import icon from "./../../assets/images/stand/icon-about-exo-2.svg";
-import about from "./../../assets/images/stand/about-exo-2.webp";
+import about from "./../../assets/images/about/header-about-whytravel.jpg";
 import responsible from "./../../assets/images/stand/responsible.jpg";
 import abouticon from "./../../assets/images/stand/icon-about-exo.svg";
 import responsibleicon from "./../../assets/images/stand/icon-responsible-home.svg";
+import Link from "next/link";
 const StandFor = () => {
   return (
     <>
@@ -28,47 +29,46 @@ const StandFor = () => {
       </div>
       <div className="px-10">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 px-3 my-5">
-          <div>
-            <div className="relative cursor-pointer hover:opacity-90">
-              <div className="h-[250px] w-full">
-                <Image src={about} alt="about" height={250} width={600} />
-              </div>
-              <div className="flex justify-between  items-center py-8 px-5 font-semibold text-white absolute top-0 w-full">
-                <h1 className="text-3xl font-bold">About DMC</h1>
-                <p>
-                  <Image
-                    src={abouticon}
-                    alt="abouticon"
-                    height={60}
-                    width={60}
-                  />
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="relative cursor-pointer hover:opacity-90">
-              <div className="h-[250px] w-full">
-                <Image
-                  src={responsible}
-                  alt="responsible"
-                  height={239}
-                  width={560}
-                />
-              </div>
-              <div className="flex justify-between  items-center py-8 px-6 font-semibold text-white absolute top-0 w-full">
-                <h1 className="text-3xl font-bold">Responsible</h1>
-                <p>
-                  <Image
-                    src={responsibleicon}
-                    alt="responsibleicon"
-                    height={60}
-                    width={60}
-                  />
-                </p>
+          <Link href={"/about"}>
+            <div>
+              <div className="h-64 relative cursor-pointer hover:opacity-90">
+                <div className="">
+                  <Image src={about} alt="about" layout="fill" />
+                </div>
+                <div className="flex justify-between  items-center py-8 px-5 font-semibold text-white absolute top-0 w-full">
+                  <h1 className="text-3xl font-bold">About DMC</h1>
+                  <p>
+                    <Image
+                      src={abouticon}
+                      alt="abouticon"
+                      height={60}
+                      width={60}
+                    />
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
+          <Link href={"/responsible"}>
+            <div>
+              <div className="h-64 relative cursor-pointer hover:opacity-90">
+                <div className="">
+                  <Image src={responsible} alt="responsible" layout="fill" />
+                </div>
+                <div className="flex justify-between  items-center py-8 px-6 font-semibold text-white absolute top-0 w-full">
+                  <h1 className="text-3xl font-bold">Responsible</h1>
+                  <p>
+                    <Image
+                      src={responsibleicon}
+                      alt="responsibleicon"
+                      height={60}
+                      width={60}
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </>
