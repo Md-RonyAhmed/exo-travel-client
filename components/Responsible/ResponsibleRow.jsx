@@ -11,7 +11,7 @@ const ResponsibleRow = ({head1,head2,head3,body1,body2,body3,btn}) => {
              <Image src={img1} alt="img1"></Image>
            </div>
            <div className="w-1/2 mt-12 space-y-8">
-             <p className=" text-3xl font-semibold">{head1}</p>
+             <p className=" text-2xl font-semibold">{head1}</p>
              <p className="text-lg">{body1}</p>
              <button className="btn btn-primary rounded px-10 hover:text-white text-primary bg-white pb-1 text-2xl font-thin capitalize">
                {btn}
@@ -20,7 +20,7 @@ const ResponsibleRow = ({head1,head2,head3,body1,body2,body3,btn}) => {
          </div>
          <div className="flex px-6">
            <div className="w-1/2 pt-12 mr-5 space-y-8">
-             <p className=" text-3xl font-semibold">{head2}</p>
+             <p className=" text-2xl font-semibold">{head2}</p>
              <p className="text-lg">{body2}</p>
              <button className="btn btn-primary rounded px-10 hover:text-white text-primary bg-white pb-1 text-2xl font-thin capitalize">
                {btn}
@@ -35,7 +35,7 @@ const ResponsibleRow = ({head1,head2,head3,body1,body2,body3,btn}) => {
              <Image src={img3} alt="img1"></Image>
            </div>
            <div className="w-1/2 pt-12 space-y-8">
-             <p className=" text-3xl font-semibold">{head3}</p>
+             <p className=" text-2xl font-semibold">{head3}</p>
              <p className="text-lg">{body3}</p>
              <button className="btn btn-primary rounded px-10 hover:text-white text-primary bg-white pb-1 text-2xl font-thin capitalize">
                {btn}

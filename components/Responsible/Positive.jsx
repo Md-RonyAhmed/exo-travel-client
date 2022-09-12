@@ -10,7 +10,7 @@ const Positive = () => {
              <Image src={icon} width={70} height={70} alt="img"></Image>
            </div>
            <div className="lg:py-12 p-8 -mt-10 ">
-             <h2 className="text-4xl tracking-wide text-[#444444] mb-4">
+             <h2 className="text-3xl tracking-wide text-[#444444] mb-4">
                MAKING A POSITIVE IMPACT
              </h2>
              <hr className="lg:w-4/12 w-1/2 mx-auto border-[1.3px] border-[#dbdbdb] bg-[#dbdbdb]" />
