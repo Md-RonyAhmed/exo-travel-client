@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 import Banner from '../../components/WhyDMC/Banner';
+import Commitment from '../../components/WhyDMC/Commitment';
 import DmcExperience from '../../components/WhyDMC/DmcExperience';
 import Tailor from '../../components/WhyDMC/Tailor';
 
@@ -14,7 +15,8 @@ const whyDMC = () => {
          </Head>
          <Banner />
          <DmcExperience />
-         <Tailor/>
+         <Tailor />
+         <Commitment/>
        </>
      );
 };

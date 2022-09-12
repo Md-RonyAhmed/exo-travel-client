@@ -4,7 +4,7 @@ import ResponsibleRow from "./ResponsibleRow";
 const ResponsibleBody = () => {
      return (
        <>
-         <div className=" mb-10">
+         <div className="mb-10">
            <h2 className="text-3xl tracking-wide text-center text-[#444444] mb-4">
              SUSTAINABILITY IN ACTION
            </h2>

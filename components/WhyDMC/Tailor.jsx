@@ -4,11 +4,11 @@ import icon from "./../../assets/images/others/pic-whytravel.webp";
 const Tailor = () => {
      return (
        <>
-         <div className="text-center z-10 bg-[#dbdbdb]">
+         <div className="text-center z-10 bg-[#efefef]">
            <div>
              <Image src={icon} alt="img"></Image>
            </div>
-           <div className="lg:py-12 p-8 mt-8">
+           <div className="lg:py-12 p-8">
              <h2 className="text-3xl tracking-wide text-[#444444] mb-4">
                TAILOR-MADE ITINERARIES
              </h2>

@@ -4,7 +4,7 @@ import icon from "./../../assets/images/responsible/icon-reponstible-main.webp";
 const DmcExperience = () => {
   return (
     <>
-      <div className="text-center mt-12 z-10">
+      <div className="text-center mt-12 z-10 bg-white">
         <div>
           <Image src={icon} width={70} height={70} alt="img"></Image>
         </div>
