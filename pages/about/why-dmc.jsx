@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 import Banner from '../../components/WhyDMC/Banner';
 import DmcExperience from '../../components/WhyDMC/DmcExperience';
+import Tailor from '../../components/WhyDMC/Tailor';
 
 const whyDMC = () => {
      return (
@@ -12,7 +13,8 @@ const whyDMC = () => {
            <link rel="icon" href="/favicon.ico" />
          </Head>
          <Banner />
-         <DmcExperience/>
+         <DmcExperience />
+         <Tailor/>
        </>
      );
 };
