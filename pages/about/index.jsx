@@ -1,6 +1,6 @@
 import Head from "next/head";
-import AboutBody from "../components/About/AboutBody";
-import Banner from "../components/About/Banner";
+import AboutBody from "../../components/About/AboutBody";
+import Banner from "../../components/About/Banner";
 
 
 const about = () => {

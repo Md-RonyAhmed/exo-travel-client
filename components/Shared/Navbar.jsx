@@ -338,9 +338,11 @@ const Navbar = ({ children }) => {
             >
               <div className="hero-overlay bg-opacity-40 brightness-50 cursor-pointer"></div>
               <div className="hero-content text-center text-neutral-content cursor-pointer">
-                <h2 className="font-bold text-lg uppercase hover:btn-link">
-                  why DMC
-                </h2>
+                <Link href={"/about/why-dmc"}>
+                  <h2 className="font-bold text-lg uppercase hover:btn-link">
+                    why DMC
+                  </h2>
+                </Link>
               </div>
             </div>
           </div>
@@ -410,7 +412,7 @@ const Navbar = ({ children }) => {
         <Link href="/blogs">BLOGS</Link>
       </li>
       <li className="hover:bg-primary hover:text-white rounded-md mr-6">
-          <label htmlFor="my-modal-3">ENQUIRE</label>
+        <label htmlFor="my-modal-3">ENQUIRE</label>
       </li>
     </>
   );

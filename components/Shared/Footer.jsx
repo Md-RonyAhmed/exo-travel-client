@@ -111,7 +111,7 @@ const Footer = () => {
                 </Link>
               </p>
               <p>
-                <Link href="/about">
+                <Link href="/about/why-dmc">
                   <a className="text-white hover:text-primary">
                     Why Travel with us
                   </a>
