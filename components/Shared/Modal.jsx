@@ -78,8 +78,8 @@ const Modal = () => {
                  <label className="label">
                    <span className="label-text">Country</span>
                  </label>
-                 <select className="select w-full input input-bordered max-w-xs">
-                   <option disabled selected>
+                 <select className="select w-full input input-bordered max-w-xs" defaultValue={"default"}>
+                   <option disabled value={"default"}>
                      choose country
                    </option>
                    <option>Vietnam</option>
@@ -103,8 +103,8 @@ const Modal = () => {
                  <label className="label">
                    <span className="label-text">Estimated Duration</span>
                  </label>
-                 <select className="select w-full input input-bordered max-w-xs">
-                   <option disabled selected>
+                 <select className="select w-full input input-bordered max-w-xs" defaultValue={"default"}>
+                   <option disabled value={"default"}>
                      choose duration
                    </option>
                    <option>Less than 1 week</option>
@@ -174,7 +174,7 @@ const Modal = () => {
                      type="radio"
                      name="radio-1"
                      className="radio"
-                     checked
+                     defaultChecked
                    />
                    <span>Female</span>
                    <input type="radio" name="radio-1" className="radio" />
