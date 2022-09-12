@@ -1,4 +1,4 @@
-import bgImage from "./../assets/images/others/EXO-TRAVEL-BLOG-HEADER-1-818x474.jpg";
+import bgImage from "./../assets/images/others/pic-whytravel.webp";
 import Subscribe from "../components/Home/Subscribe";
 import Head from "next/head";
 const Blogs = () => {
@@ -10,7 +10,7 @@ const Blogs = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div
-        className="hero h-80 "
+        className="hero h-96"
         style={{ backgroundImage: `url('${bgImage.src}')` }}
       >
         <div className="hero-overlay bg-opacity-30"></div>

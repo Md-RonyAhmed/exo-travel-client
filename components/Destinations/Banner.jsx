@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <>
       <div
-        className="hero h-80"
+        className="hero h-96"
         style={{ backgroundImage: `url('${bgImage.src}')`}}
       >
         <div className="hero-overlay bg-opacity-30"></div>
