@@ -25,8 +25,9 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 p-3 mt-1 bg-white text-black lg:w-[750px] w-full lg:h-[400px] h-full grid lg:grid-cols-5 lg:gap-3 gap-0 grid-cols-1 rounded"
+          className="dropdown-content relative z-40 p-3 mt-1 bg-white text-black lg:w-[750px] w-full lg:h-[400px] h-full grid lg:grid-cols-5 lg:gap-3 gap-0 grid-cols-1 rounded"
         >
+          <span class="h-0 w-0 border-x-8 border-x-transparent border-b-[12px] absolute -top-2 border-b-white left-16"></span>
           <div>
             <div
               className="hero h-24 mt-3"
@@ -248,8 +249,9 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 p-4 gap-3 mt-1 bg-white rounded text-black w-[650px] h-[230px] grid lg:grid-cols-3 grid-cols-1"
+          className="dropdown-content relative z-40 p-4 gap-3 mt-1 bg-white rounded text-black w-[650px] h-[230px] grid lg:grid-cols-3 grid-cols-1"
         >
+          <span class="h-0 w-0 border-x-8 border-x-transparent border-b-[12px] absolute -top-2 border-b-white left-16"></span>
           <div className="pt-3 space-y-3 cursor-pointer">
             <p className=" hover:text-primary uppercase">classic journeys</p>
             <p className=" hover:text-primary uppercase">beach</p>
@@ -290,8 +292,9 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 px-4 pt-3 mt-1 rounded bg-white lg:w-[600px] w-full lg:h-[300px] h-full grid lg:grid-cols-3 lg:gap-2 gap-2 grid-cols-1"
+          className="dropdown-content relative z-40 px-4 pt-3 mt-1 rounded bg-white lg:w-[600px] w-full lg:h-[300px] h-full grid lg:grid-cols-3 lg:gap-2 gap-2 grid-cols-1"
         >
+          <span class="h-0 w-0 border-x-8 border-x-transparent border-b-[12px] absolute -top-2 border-b-white right-16"></span>
           <div>
             <div
               className="hero h-28 w-full"
@@ -393,8 +396,9 @@ const Navbar = ({ children }) => {
         </li>
         <ul
           tabIndex="0"
-          className="dropdown-content z-40 p-3 mt-1 rounded bg-white text-black w-[600px] h-[160px] grid lg:grid-cols-2 grid-cols-1"
+          className="dropdown-content relative z-40 p-3 mt-1 rounded bg-white text-black w-[600px] h-[160px] grid lg:grid-cols-2 grid-cols-1"
         >
+          <span class="h-0 w-0 border-x-8 border-x-transparent border-b-[12px] absolute -top-2 border-b-white right-16"></span>
           <div className="pt-3 space-y-3 cursor-pointer">
             <p className=" hover:text-primary uppercase">
               responsible experiences
